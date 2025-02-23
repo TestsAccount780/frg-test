@@ -20,14 +20,18 @@ body {
 }
 
 .ui_container{
+	display: grid;
+    place-items: center; /* Centers both horizontally and vertically */
 	font-size: 30px;
 	padding: 8px;
-	margin: 20px;
+	padding-bottom: 40px;
+	margin: 5vh;
 	
-	margin-left: 5%;
+	margin-left: auto;
+	margin-right: auto;
 	
 	width: 500px;
-	height: 200px;
+	height: auto;
 	overflow: auto; 
 	
 	background-color: white;
@@ -35,6 +39,11 @@ body {
 				 2px -2px 5px 2px #AAA,
 				-2px  2px 5px 2px #AAA,
 				 2px  2px 5px 2px #AAA;
+}
+
+.robux_amount_button{
+	width: 70%;
+	padding: 10px;
 }
 
 input[type="text"] {
